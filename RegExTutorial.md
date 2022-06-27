@@ -1,6 +1,6 @@
 # An Overview of Regular Expressions (RegEx)
 
-Regular expressions are essential tools in advanced text processing.  They are special text strings that allow you to not only search literal text, but to also create search patterns with specific rules to find data in a text by matching character combinations in strings. Ordinary text search can be only used to find text strings that are fixed, whereas RegEx can be used to significantly narrow down searches to find much more specific text in a data set.  To illustrate the difference between ordinary text search and regular expressions, let's use an example of a given data set containing people's personal information. Using basic text search, you would only be able to narrow down the search to find a specific phone number or email address. If you were to conduct your search with regular expressions, you would be able to easily find much more detailed information such as: 1) only the phone numbers and email addresses that are valid, 2) only phone numbers from a specific area code, 3) only email addresses containing @gmail, or 4) only phone numbers starting or ending with certain digits. 
+Regular expressions are essential tools in advanced text processing.  They are special text strings that allow you to not only search literal text, but to also create search patterns with specific rules to find data in a text by matching character combinations in strings. Ordinary text search can be only used to find text strings that are fixed, whereas RegEx can be used to significantly narrow down searches to find much more specific text in a data set.  To illustrate the difference between ordinary text search and regular expressions, let's use an example of a given data set containing people's personal information. Using basic text search, you would only be able to narrow down the search to find a specific phone number. If you were to conduct your search with regular expressions, you would be able to easily find much more detailed information such as: only the phone numbers that are valid, only phone numbers from a specific area code, or only phone numbers starting or ending with certain digits. 
 
 ## Summary
 
@@ -31,7 +31,7 @@ Types of anchors are as follow:
 
 
 - ^ (caret): This serves as both a string anchor and line anchor. It requires the match to occur at the beginning of the string or line. For instance, "^The" matches any string that starts with "The".
-- $ (dollar): This serves as both a string anchor and line anchor. It requires the match to occur before the linebreak /n at the end of the string or line. For example, "happiness$" matches any string that ends with "happiness".
+- (dollar): This serves as both a string anchor and line anchor. It requires the match to occur before the linebreak /n at the end of the string or line. For example, "happiness$" matches any string that ends with "happiness".
 - \A (beginning of string): This is a string only anchor. It requires the match to occur at the beginning of the string only.
 - \z (very end of string): This is a string only anchor. It requires the match to occur at the end of the string only.  
 - \Z (end of string / before line break): This is a string only anchor. It requires the match to occur at the end of the string, or before the final line break at the end of the string. 
