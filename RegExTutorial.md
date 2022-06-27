@@ -31,7 +31,7 @@ Types of anchors are as follow:
 
 
 - ^ (caret): This serves as both a string anchor and line anchor. It requires the match to occur at the beginning of the string or line. For instance, "^The" matches any string that starts with "The".
-- \ $(dollar): This serves as both a string anchor and line anchor. It requires the match to occur before the linebreak /n at the end of the string or line. For example, "happiness\$" matches any string that ends with "happiness".
+- (dollar-sign): This serves as both a string anchor and line anchor. It requires the match to occur before the linebreak /n at the end of the string or line. For example, "happiness\$" matches any string that ends with "happiness".
 - \A (beginning of string): This is a string only anchor. It requires the match to occur at the beginning of the string only.
 - \z (very end of string): This is a string only anchor. It requires the match to occur at the end of the string only.  
 - \Z (end of string / before line break): This is a string only anchor. It requires the match to occur at the end of the string, or before the final line break at the end of the string. 
